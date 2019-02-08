@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Do work here
 router.get('/', (req, res) => {
-  const hola = {name: "Paula", age: 27, linda: true};
+  const hola = {name: "Paula", age: 27, linda: true, hola: true};
   res.json(hola);
   //res.send('Hey! It works!');
 });
